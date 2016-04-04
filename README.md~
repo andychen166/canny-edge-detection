@@ -4,7 +4,6 @@ Matlab app which identifies the edges of a given image by applying a canny detec
 
 ----------------------
 
-```matlab
 function emap = canny(img,sigma,fsize,tlow,thigh)
 Applies canny edge detection algorithm to the given image
  img   - given image matrix
@@ -17,4 +16,4 @@ Good parameters:
     cameraman.tif :  canny('cameraman.tif',  1, 5, 10, 20)
 
 Note: Marker may need to convert outputs to uint8 to view other functions
-working```
+working
