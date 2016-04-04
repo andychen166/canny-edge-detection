@@ -1,6 +1,9 @@
-# canny-edge-detection
+# Canny Edge Detection
+
 Matlab app which identifies the edges of a given image by applying a canny detection algorithm
+
 ----------------------
+
 function emap = canny(img,sigma,fsize,tlow,thigh)
 Applies canny edge detection algorithm to the given image
  img   - given image matrix
