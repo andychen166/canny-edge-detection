@@ -16,5 +16,3 @@ Applies canny edge detection algorithm to the given image
 Good parameters:
     cameraman.tif :  canny('cameraman.tif',  1, 5, 10, 20)
 
-Note: Marker may need to convert outputs to uint8 to view other functions
-working```
